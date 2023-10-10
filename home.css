@@ -47,7 +47,7 @@ div > span#h2{
     font-weight: 400;
     font-size: 13px;
     line-height: 21.06px;
-    
+    margin-left: 15px;
 }
 nav > p{
     display: flex;
@@ -103,11 +103,98 @@ header > span > a{
     text-decoration: none;
 }
 
+div#cadastro{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin-left: 20px;
+}
+div > div#cadastrototal{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+}
+div > div#cadastrototal > span{
+    margin-left: 90px;
+    color: #415996;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+div > div#cadastrototal > p{
+    margin-top: 150px;
+    margin-left: -30px;
+    color: #00000080;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+div > div#cadastromes{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    margin-left: 20px;
+}
+
+div > div#cadastromes > span{
+    margin-left: 90px;
+    color: #C15959;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+}
+div > div#cadastromes > p{
+    margin-top: 150px;
+    margin-left: -40px;
+    color: #00000080;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+div > div#cadastropr{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    margin-left: 20px;
+}
+
+div > div#cadastropr> span{
+    margin-left: 90px;
+    color: #C15959;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+div > div#cadastropr > p{
+    margin-top: 150px;
+    margin-left: -120px;
+    color: #00000080;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
 main{
     display: block;
     border: 1px solid black;
     width: 1050px;
-    height: 500px;
+    height: 310px;
     padding: 5px;
     margin: 10px;
 }
@@ -117,12 +204,12 @@ main > h1{
     font-family: 'Roboto', sans-serif;
     line-height: 21.09px;
     color: #00000080;
-    margin-left: 10px;
+    margin-left: 5px;
     margin-top: 10px;
 }
 main > div{
     border: 1px solid black;
     width: 1000px;
-    height: 400px;
+    height: 200px;
     margin-top: 25px;
 }
