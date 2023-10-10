@@ -126,9 +126,3 @@ main > div{
     height: 400px;
     margin-top: 25px;
 }
-main > div > div#img{
-    border: 1px solid black;
-    width: 400px;
-    height: 400px;
-    margin-left: 600px;
-}
