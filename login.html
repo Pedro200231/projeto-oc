@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="formulario">
+                <div id="cabecalho">
+                    <h1>OC</h1>
+                    <p>Operação Curiosidade</p>
+                </div>
+                <form action="home.html" method="post" autocomplete="on">
+                    <div class="campo" id="email">
+                        <input type="email" name="login" id="ilogin" placeholder=" Email" autocomplete="email" required minlength="5" maxlength="30">
+                        <label for="ilogin">Login</label>
+                    </div>
+                    <div class="campo">
+                        <input type="password" name="senha" id="isenha" placeholder=" Senha" autocomplete="current-password" required minlength="8" maxlength="20">
+                        <label for="isenha">Senha</label>
+                    </div>
+                    <a href="home.html"><input type="submit" value="Entrar"></a>
+                </form>
+            </div>
+        </section>
+    
+</body>
+</html>
