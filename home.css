@@ -14,7 +14,7 @@
 }
     body{
         display: flex;
-        background-color: #F5F5F5;
+        background-color: white;
         
     }
 nav{
@@ -114,11 +114,12 @@ div#cadastro{
     align-items: center;
     margin: 10px;
     margin-left: 20px;
+    background-color: white;
 }
 div > div#cadastrototal{
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: #f1eded;
     border: 1px solid white;
     width: 300px;
     height: 200px;
@@ -144,7 +145,7 @@ div > div#cadastrototal > p{
 div > div#cadastromes{
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: #f1eded;
     border: 1px solid white;
     width: 300px;
     height: 200px;
@@ -154,7 +155,7 @@ div > div#cadastromes{
 
 div > div#cadastromes > span{
     margin-left: 90px;
-    color: #C15959;
+    color: #3F9D2F;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 64px;
@@ -171,7 +172,7 @@ div > div#cadastromes > p{
 div > div#cadastropr{
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: #f1eded;
     border: 1px solid white;
     width: 300px;
     height: 200px;
@@ -203,6 +204,7 @@ main{
     height: 310px;
     padding: 5px;
     margin: 10px;
+    background-color: #D9D9D9;
 }
 main > h1{
     font-size: 18px;
@@ -220,7 +222,7 @@ main > div{
     margin-top: 25px;
 }
 table{
-    background-color: white;
+    background-color: #f1eded;
     font-family: 'Roboto', sans-serif;
     border-collapse: collapse;
     width: 100%;

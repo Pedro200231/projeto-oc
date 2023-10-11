@@ -22,7 +22,8 @@ nav{
     border: 1px solid white;
     width: 300px;
     height: 100vh;
-
+    position: sticky;
+    top: 0;
 }
 nav > div{
     display: flex;
@@ -68,7 +69,9 @@ nav > hr{
     width: 240px;
     margin-left: 10px;
 }
-
+div#corpo{
+    position: relative;
+}
 header{
     display: flex;
     align-items: center;
@@ -78,6 +81,7 @@ header{
     width: 1056px;
     height: 62px;
     margin: 12px;
+    margin-left: 9px;
 }
 header > input{
     border: 1px solid #D9D9D9;
@@ -112,10 +116,11 @@ header > span > a{
 main{
     border: 1px solid #D9D9D9;
     background-color: #D9D9D9;
-    width: 1050px;
-    height: 520px;
+    width: 1056px;
+    height: 800px;
     padding: 5px;
     margin: 10px;
+    position: relative;
 }
 main > div#cabmain{
     display: flex;
@@ -164,13 +169,13 @@ main hr{
 main label{
     margin-left: 8px;
 }
-main > div#form > form >div#nome{
+main > div#form > form >div#inome{
     color: #333333;
     font-size: 14px;
     font-weight: 400;
     padding: 5px;
 }
-main > div#form > form >div#nome > input{
+main > div#form > form >div#inome > input{
     border: 1px solid #D9D9D9;
     border-radius: 5px;
     width: 1000px;
@@ -194,20 +199,20 @@ main > div#form > form >div#idamail > input#idade{
 main > div#form > form > div#idamail > label#email{
     margin-left: 163px;
 }
-main > div#form > form >div#idamail > input#email{
+main > div#form > form >div#idamail > input#e-mail{
     border: 1px solid #D9D9D9;
     border-radius: 5px;
     width: 795px;
     height: 30px;
     padding-left: 10px;
 }
-main > div#form > form >div#endereco{
+main > div#form > form >div#iendereco{
     color: #333333;
     font-size: 14px;
     font-weight: 400;
     padding: 5px;
 }
-main > div#form > form >div#endereco > input{
+main > div#form > form >div#iendereco > input{
     border: 1px solid #D9D9D9;
     border-radius: 5px;
     width: 1000px;
@@ -236,4 +241,37 @@ textarea#interesse{
     margin-left: 5px;
     padding-left: 10px;
     padding-top: 10px;
+}
+textarea#curiosidade{
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    width: 1000px;
+    height: 100px;
+    margin: 10px;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+textarea#valores{
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    width: 1000px;
+    height: 100px;
+    margin: 10px;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+main > div > a > span#gravar{
+    margin-left: 410px;
+    background-color: #61A057;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 234px;
+    height: 40px;
+    padding: 10px 60px 10px 60px;
+}
+main > div > a{
+    text-decoration: none;
 }

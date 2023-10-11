@@ -14,8 +14,7 @@
 }
     body{
         display: flex;
-        background-color: #F5F5F5;
-        
+        background-color: white
     }
 nav{
     background-color: #D9D9D9;
@@ -72,12 +71,13 @@ nav > hr{
 header{
     display: flex;
     align-items: center;
-    background-color: #EFF4FC;
+    background-color: #D9D9D9;
     border: 1px solid white;
     border-radius: 5px;
     width: 1056px;
     height: 62px;
     margin: 12px;
+    margin-left: 10px;
 }
 header > input{
     border: 1px solid #D9D9D9;
@@ -112,10 +112,18 @@ header > span > a{
 main{
     display: block;
     border: 1px solid white;
-    width: 1050px;
-    height: 310px;
+    width: 1056px;
+    height: 280px;
     padding: 5px;
     margin: 10px;
+    background-color: #D9D9D9;
+}
+main > div{
+    background-color: #D9D9D9;
+    width: 1030px;
+    height: 40px;
+    padding-top: 10px;
+    margin-bottom: -20px;
 }
 main > div > span#h1{
     font-size: 18px;
@@ -131,7 +139,7 @@ main > div > a{
 }
 
 main > div > a > span#new{
-    margin-left: 730px;
+    margin-left: 738px;
     background-color: #61A057;
     color: white;
     border: 1px solid black;
@@ -142,12 +150,12 @@ main > div > a > span#new{
 }
 main > div#table{
     
-    width: 1000px;
+    width: 1045px;
     height: 200px;
     margin-top: 25px;
 }
 table{
-    background-color: white;
+    background-color: #f1eded;
     font-family: 'Roboto', sans-serif;
     border-collapse: collapse;
     width: 100%;
