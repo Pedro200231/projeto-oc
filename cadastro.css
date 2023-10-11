@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@charset "UTF-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
@@ -68,6 +70,7 @@ nav > hr{
     width: 240px;
     margin-left: 10px;
 }
+
 header{
     display: flex;
     align-items: center;
@@ -108,94 +111,6 @@ header > span > a{
     color: gray;
     text-decoration: none;
 }
-
-div#cadastro{
-    display: flex;
-    align-items: center;
-    margin: 10px;
-    margin-left: 20px;
-}
-div > div#cadastrototal{
-    display: flex;
-    align-items: center;
-    background-color: white;
-    border: 1px solid white;
-    width: 300px;
-    height: 200px;
-    margin: auto;
-}
-div > div#cadastrototal > span{
-    margin-left: 90px;
-    color: #415996;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 64px;
-}
-
-div > div#cadastrototal > p{
-    margin-top: 150px;
-    margin-left: -30px;
-    color: #00000080;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-}
-
-div > div#cadastromes{
-    display: flex;
-    align-items: center;
-    background-color: white;
-    border: 1px solid white;
-    width: 300px;
-    height: 200px;
-    margin: auto;
-    margin-left: 20px;
-}
-
-div > div#cadastromes > span{
-    margin-left: 90px;
-    color: #C15959;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 64px;
-}
-div > div#cadastromes > p{
-    margin-top: 150px;
-    margin-left: -40px;
-    color: #00000080;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-}
-
-div > div#cadastropr{
-    display: flex;
-    align-items: center;
-    background-color: white;
-    border: 1px solid white;
-    width: 300px;
-    height: 200px;
-    margin: auto;
-    margin-left: 20px;
-}
-
-div > div#cadastropr> span{
-    margin-left: 90px;
-    color: #C15959;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 64px;
-}
-
-div > div#cadastropr > p{
-    margin-top: 150px;
-    margin-left: -120px;
-    color: #00000080;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-}
-
 main{
     display: block;
     border: 1px solid white;
@@ -204,7 +119,7 @@ main{
     padding: 5px;
     margin: 10px;
 }
-main > h1{
+main > div > span#h1{
     font-size: 18px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
@@ -213,7 +128,21 @@ main > h1{
     margin-left: 5px;
     margin-top: 10px;
 }
-main > div{
+main > div > a{
+    text-decoration: none;
+}
+
+main > div > a > span#new{
+    margin-left: 730px;
+    background-color: #61A057;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 234px;
+    height: 40px;
+    padding: 10px 30px 10px 30px;
+}
+main > div#table{
     
     width: 1000px;
     height: 200px;
@@ -239,4 +168,3 @@ td{
     width: 50px;
     text-align: center;
 }
-
