@@ -229,7 +229,7 @@ table{
     height: 100%;
 }
 tr.hover:hover{
-     background-color: gray; 
+     background-color: lightgray; 
 
         transition: 0.5s;
         

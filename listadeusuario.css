@@ -12,11 +12,10 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
-    body{
+body{
         display: flex;
         background-color: white;
-        
-    }
+}
 nav{
     background-color: #D9D9D9;
     border: 1px solid white;
@@ -160,7 +159,7 @@ table{
     height: 100%;
 }
 tr.hover:hover{
-    background-color: gray; 
+    background-color: lightgray; 
 
        transition: 0.5s;
        
