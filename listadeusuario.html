@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Lista de Usuário</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="listadeusuario.css">
+    <link rel="stylesheet" href="impressora.css" media="print">
 </head>
 <body>
     <nav>
@@ -33,25 +34,13 @@
             <hr>
             <span><a href="index.html">SAIR</a></span>
         </header>
-        <div id="cadastro">
-            <div id="cadastrototal">
-                <span>100</span>
-                <p>Total de cadastros</p>
-            </div>
-            <div id="cadastromes">
-                <span>10</span>
-                <p>Cadastros no último mês</p>
-            </div>
-            <div id="cadastropr">
-                <span>10</span>
-                <p>Cadastros com pendência de revisão</p>
-                
-            </div>
-        </div>
-
         <main>
-            <h1>Últimos cadastros</h1>
-            <div>
+           <div>
+                <span id="h1">Relatórios>Lista de Usuários</span>
+                <a href="" onclick="window.print()"><span id="imprimir">IMPRIMIR</span></a>
+            </div>
+
+            <div id="table">
                 <table>
                     <tr>
                         <th id="n">Nome</th>
@@ -90,6 +79,5 @@
             </div>
         </main>
     </div>
-    
 </body>
 </html>

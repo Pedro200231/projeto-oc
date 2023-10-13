@@ -261,17 +261,18 @@ textarea#valores{
     margin-left: 5px;
     padding-left: 10px;
     padding-top: 10px;
+    margin-bottom: 10px;
 }
-main > div > a > span#gravar{
+main > div > form > a > input[type=submit]{
     margin-left: 410px;
     background-color: #61A057;
     color: white;
     border: 1px solid black;
     border-radius: 5px;
-    width: 234px;
+    width: 200px;
     height: 40px;
-    padding: 10px 60px 10px 60px;
+    cursor: pointer;
 }
-main > div > a{
+main > div > form > a{
     text-decoration: none;
 }

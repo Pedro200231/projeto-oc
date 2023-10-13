@@ -108,105 +108,23 @@ header > span > a{
     color: gray;
     text-decoration: none;
 }
-
-div#cadastro{
-    display: flex;
-    align-items: center;
-    margin: 10px;
-    margin-left: 20px;
-    background-color: white;
-}
-div > div#cadastrototal{
-    display: flex;
-    align-items: center;
-    background-color: #f1eded;
-    border: 1px solid white;
-    width: 300px;
-    height: 200px;
-    margin: auto;
-}
-div > div#cadastrototal > span{
-    margin-left: 90px;
-    color: #415996;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 64px;
-}
-
-div > div#cadastrototal > p{
-    margin-top: 150px;
-    margin-left: -30px;
-    color: #00000080;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-}
-
-div > div#cadastromes{
-    display: flex;
-    align-items: center;
-    background-color: #f1eded;
-    border: 1px solid white;
-    width: 300px;
-    height: 200px;
-    margin: auto;
-    margin-left: 20px;
-}
-
-div > div#cadastromes > span{
-    margin-left: 90px;
-    color: #3F9D2F;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 64px;
-}
-div > div#cadastromes > p{
-    margin-top: 150px;
-    margin-left: -40px;
-    color: #00000080;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-}
-
-div > div#cadastropr{
-    display: flex;
-    align-items: center;
-    background-color: #f1eded;
-    border: 1px solid white;
-    width: 300px;
-    height: 200px;
-    margin: auto;
-    margin-left: 20px;
-}
-
-div > div#cadastropr> span{
-    margin-left: 90px;
-    color: #C15959;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 64px;
-}
-
-div > div#cadastropr > p{
-    margin-top: 150px;
-    margin-left: -120px;
-    color: #00000080;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-}
-
 main{
     display: block;
     border: 1px solid white;
-    width: 1050px;
-    height: 310px;
+    width: 1056px;
+    height: 280px;
     padding: 5px;
     margin: 10px;
     background-color: #D9D9D9;
 }
-main > h1{
+main > div{
+    background-color: #D9D9D9;
+    width: 1030px;
+    height: 40px;
+    padding-top: 10px;
+    margin-bottom: -20px;
+}
+main > div > span#h1{
     font-size: 18px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
@@ -215,9 +133,22 @@ main > h1{
     margin-left: 5px;
     margin-top: 10px;
 }
-main > div{
+main > div > a{
+    text-decoration: none;
+}
+main > div > a > span#imprimir{
+    margin-left: 610px;
+    background-color: #5763A0;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 234px;
+    height: 40px;
+    padding: 10px 50px 10px 50px;
+}
+main > div#table{
     
-    width: 1000px;
+    width: 1045px;
     height: 200px;
     margin-top: 25px;
 }
@@ -241,4 +172,3 @@ td{
     width: 50px;
     text-align: center;
 }
-

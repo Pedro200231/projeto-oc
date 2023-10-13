@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+
+header{
+    display: none;
+}
+nav{
+    display: none;
+}
+main > div > a > span#imprimir{
+    display: none;
+}
