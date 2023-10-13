@@ -133,12 +133,12 @@ main > div > span#h1{
     color: #00000080;
     margin-left: 5px;
     margin-top: 10px;
+    margin-right: 738px;
 }
 main > div > a{
     text-decoration: none;
 }
 main > div > a > span#new{
-    margin-left: 738px;
     background-color: #61A057;
     color: white;
     border: 1px solid black;

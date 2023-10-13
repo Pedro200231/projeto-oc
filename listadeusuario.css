@@ -131,12 +131,13 @@ main > div > span#h1{
     color: #00000080;
     margin-left: 5px;
     margin-top: 10px;
+    margin-right: 610px;
 }
 main > div > a{
     text-decoration: none;
 }
 main > div > a > span#imprimir{
-    margin-left: 610px;
+    
     background-color: #5763A0;
     color: white;
     border: 1px solid black;
