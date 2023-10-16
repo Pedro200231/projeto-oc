@@ -10,3 +10,6 @@ nav{
 main > div > a > span#imprimir{
     display: none;
 }
+main{
+    border: black 1px solid;
+}

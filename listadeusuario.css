@@ -14,11 +14,11 @@
 }
 body{
         display: flex;
-        background-color: white;
+        background-color: #600580;
 }
 nav{
-    background-color: #D9D9D9;
-    border: 1px solid white;
+    background-color: #D356FF;
+    border: 1px solid #D356FF;
     width: 300px;
     height: 100vh;
 
@@ -26,7 +26,7 @@ nav{
 nav > div{
     display: flex;
     align-items: center;
-    background-color: #EFF4FC;
+    background-color: #9908CC;
     width: 270px;
     height: 50px;
     margin: auto;
@@ -53,15 +53,16 @@ nav > p{
     align-items: center;
     font-size: 15px;
     padding: 5px;
-    
+    color: #9908CC;
 }
 nav > p > span{
     padding: 5px;
+    color: #9908CC;
 }
 
 nav > p > a{
     text-decoration: none;
-    color: #000000;
+    color: #9908CC;
 }
 nav > hr{
     width: 240px;
@@ -70,8 +71,8 @@ nav > hr{
 header{
     display: flex;
     align-items: center;
-    background-color: #D9D9D9;
-    border: 1px solid white;
+    background-color: #D356FF;
+    border: 1px solid #D356FF;
     border-radius: 5px;
     width: 1056px;
     height: 62px;
@@ -86,8 +87,8 @@ header > input{
     padding-left: 15px;
 }
 header > div#bola{
-    border: 1px solid #EFF4FC;
-    background-color: gray;
+    border: 1px solid #D356FF;
+    background-color: #692A80;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -104,20 +105,21 @@ header > hr{
 header > span > a{
     font-size: 15px;
     margin-left: 10px;
-    color: gray;
+    color: black;
     text-decoration: none;
 }
 main{
     display: block;
-    border: 1px solid white;
+    border: 1px solid #D356FF;
     width: 1056px;
     height: 280px;
     padding: 5px;
-    margin: 10px;
-    background-color: #D9D9D9;
+    margin: 12px;
+    border-radius: 5px;
+    background-color: #D356FF;
 }
 main > div{
-    background-color: #D9D9D9;
+    background-color: #D356FF;
     width: 1030px;
     height: 40px;
     padding-top: 10px;
@@ -128,7 +130,7 @@ main > div > span#h1{
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
     line-height: 21.09px;
-    color: #00000080;
+    color: black;
     margin-left: 5px;
     margin-top: 10px;
     margin-right: 610px;
@@ -153,11 +155,12 @@ main > div#table{
     margin-top: 25px;
 }
 table{
-    background-color: #f1eded;
+
     font-family: 'Roboto', sans-serif;
     border-collapse: collapse;
     width: 100%;
     height: 100%;
+    background-color: #692A80;
 }
 tr.hover:hover{
     background-color: lightgray; 
@@ -167,7 +170,7 @@ tr.hover:hover{
        opacity: 0.7;
 }
 th{
-    color: gray;
+    color: black;
     font-weight: 500;
     text-align: center;
     padding-bottom: 2px;
