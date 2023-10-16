@@ -35,7 +35,6 @@ nav > div{
 }
 
 div > span#h1{
-    
     font-weight: 700;
     font-size: 40px;
     line-height: 48.41px;
@@ -68,20 +67,24 @@ nav > hr{
     width: 240px;
     margin-left: 10px;
 }
+div#corpo{
+    width: 100%;
+    height: 100vh;
+}
 header{
     display: flex;
     align-items: center;
     background-color: #D356FF;
     border: 1px solid #D356FF;
     border-radius: 5px;
-    width: 100%;
+    width: 98%;
     height: 62px;
     margin: 12px;
 }
 header > input{
-    border: 1px solid #D9D9D9;
+    border: 1px solid #D356FF;
     border-radius: 10px;
-    width: 650px;
+    width: 65%;
     height: 40px;
     margin: 10px;
     padding-left: 15px;
@@ -89,7 +92,7 @@ header > input{
 header > div#bola{
     border: 1px solid #D356FF;
     background-color: #692A80;
-    width: 40px;
+    min-width: 40px;
     height: 40px;
     border-radius: 50%;
 }
@@ -100,25 +103,29 @@ header > span{
 header > hr{
     width: 1px;
     height: 30px;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 header > span > a{
+    margin-right: 5px;
     font-size: 15px;
-    margin-left: 10px;
     color: black;
     text-decoration: none;
 }
 
 div#cadastro{
     display: flex;
+    align-items: center;
     width: 100%;
-    margin: 12px;
+    height: 30%;
+    margin: auto;
     background-color: #600580;
     border-radius: 5px;
 }
 div > div#cadastrototal{
     display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #692A80;
     border: 1px solid #600580;
     width: 30%;
@@ -126,16 +133,16 @@ div > div#cadastrototal{
     margin: auto;
 }
 div > div#cadastrototal > span{
-    margin-left: 90px;
     color: #43725B;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 64px;
+    transform: translate(0, 50px);
 }
 
 div > div#cadastrototal > p{
-    margin-top: 150px;
-    margin-left: -30px;
+    width: 100%;
+    text-align: right;
     color: black;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -145,24 +152,26 @@ div > div#cadastrototal > p{
 div > div#cadastromes{
     display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #692A80;
-    border: 1px solid #692A80;
+    border: 1px solid #600580;
     width: 30%;
     height: 100%;
     margin: auto;
-    margin-left: 20px;
+    
 }
 
 div > div#cadastromes > span{
-    margin-left: 90px;
     color: #1D1143;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 64px;
+    transform: translate(0, 50px);
 }
 div > div#cadastromes > p{
-    margin-top: 150px;
-    margin-left: -40px;
+    width: 100%;
+    text-align: right;
     color: black;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -172,25 +181,26 @@ div > div#cadastromes > p{
 div > div#cadastropr{
     display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #692A80;
-    border: 1px solid #692A80;
+    border: 1px solid #600580;
     width: 30%;
     height: 100%;
     margin: auto;
-    margin-left: 20px;
 }
 
 div > div#cadastropr> span{
-    margin-left: 90px;
     color: #5E5774;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 64px;
+    transform: translate(0, 50px);
 }
 
 div > div#cadastropr > p{
-    margin-top: 150px;
-    margin-left: -120px;
+    width: 100%;
+    text-align: right;
     color: black;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -200,7 +210,7 @@ div > div#cadastropr > p{
 main{
     display: block;
     border: 1px solid #D356FF;
-    width: 100%;
+    width: 98%;
     height: 45%;
     padding: 5px;
     border-radius: 5px;
