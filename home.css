@@ -15,7 +15,6 @@
 body{
     display: flex;
     background-color: #600580;
-       
 }
 nav{
     background-color: #D356FF;
@@ -75,7 +74,7 @@ header{
     background-color: #D356FF;
     border: 1px solid #D356FF;
     border-radius: 5px;
-    width: 1056px;
+    width: 100%;
     height: 62px;
     margin: 12px;
 }
@@ -112,9 +111,7 @@ header > span > a{
 
 div#cadastro{
     display: flex;
-    align-items: center;
-    width: 1056px;
-    margin: 10px;
+    width: 100%;
     margin: 12px;
     background-color: #600580;
     border-radius: 5px;
@@ -124,8 +121,8 @@ div > div#cadastrototal{
     align-items: center;
     background-color: #692A80;
     border: 1px solid #600580;
-    width: 300px;
-    height: 200px;
+    width: 30%;
+    height: 100%;
     margin: auto;
 }
 div > div#cadastrototal > span{
@@ -150,8 +147,8 @@ div > div#cadastromes{
     align-items: center;
     background-color: #692A80;
     border: 1px solid #692A80;
-    width: 300px;
-    height: 200px;
+    width: 30%;
+    height: 100%;
     margin: auto;
     margin-left: 20px;
 }
@@ -177,8 +174,8 @@ div > div#cadastropr{
     align-items: center;
     background-color: #692A80;
     border: 1px solid #692A80;
-    width: 300px;
-    height: 200px;
+    width: 30%;
+    height: 100%;
     margin: auto;
     margin-left: 20px;
 }
@@ -203,8 +200,8 @@ div > div#cadastropr > p{
 main{
     display: block;
     border: 1px solid #D356FF;
-    width: 1056px;
-    height: 300px;
+    width: 100%;
+    height: 45%;
     padding: 5px;
     border-radius: 5px;
     margin: 12px;
@@ -220,8 +217,7 @@ main > h1{
     margin-top: 10px;
 }
 main > div{
-    
-    width: 1000px;
+    width: 100%;
     height: 200px;
     margin-top: 25px;
 }
@@ -233,11 +229,9 @@ table{
     height: 100%;
 }
 tr.hover:hover{
-     background-color: lightgray; 
-
-        transition: 0.5s;
-        
-        opacity: 0.7;
+    background-color: lightgray; 
+    transition: 0.5s;   
+    opacity: 0.7;
 }
 th{
     color: black;
@@ -249,7 +243,7 @@ th{
 td{
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
-    width: 50px;
+    width: 10%;
     text-align: center;
 }
 
