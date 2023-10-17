@@ -6,6 +6,7 @@
     <title>Novo Cadastro</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="novocadastro.css">
+    <link rel="stylesheet" href="responsividade.css">
 </head>
 <body>
     <nav>
@@ -36,8 +37,10 @@
         <main>
             <div id="cabmain">
                 <span id="h1">Novo Cadastro</span>
-                <div id="bolinha"></div>
-                <span id="ativo">Ativo</span>
+                <div>
+                    <div id="bolinha"></div>
+                    <span id="ativo">Ativo</span>
+                </div>
             </div>
             <div id="form">
                 <h1>1º Fatos e Dados</h1>
@@ -48,11 +51,14 @@
                         <br>
                         <input type="text" name="nome" id="nome" required autocomplete="given-name" minlength="5" maxlength="30">
                     </div>
-                    <div id="idamail">
+                    <div id="iidade">
                         <label for="idade">Idade</label>
-                        <label id="email" for="e-mail">E-mail</label>
                         <br>
                         <input type="number" name="idade" id="idade" required>
+                    </div>
+                    <div id="iemail">
+                        <label id="email" for="e-mail">E-mail</label>
+                        <br>
                         <input type="email" name="e-mail" id="e-mail" autocomplete="email" required minlength="5" maxlength="30">
                     </div>
                     <div id="iendereco">

@@ -21,9 +21,7 @@ nav{
     background-color: #D356FF;
     border: 1px solid #D356FF;
     width: 300px;
-    height: 100vh;
-    position: sticky;
-    top: 0;
+    height: 940px;
 }
 nav > div{
     display: flex;
@@ -71,7 +69,8 @@ nav > hr{
     margin-left: 10px;
 }
 div#corpo{
-    position: relative;
+    width: 100%;
+    height: 100vh;
 }
 header{
     display: flex;
@@ -79,15 +78,14 @@ header{
     background-color: #D356FF;
     border: 1px solid #D356FF;
     border-radius: 5px;
-    width: 1056px;
+    width: 98%;
     height: 62px;
     margin: 12px;
-    
 }
 header > input{
-    border: 1px solid #D9D9D9;
+    border: 1px solid #D356FF;
     border-radius: 10px;
-    width: 650px;
+    width: 65%;
     height: 40px;
     margin: 10px;
     padding-left: 15px;
@@ -95,7 +93,7 @@ header > input{
 header > div#bola{
     border: 1px solid #D356FF;
     background-color: #692A80;
-    width: 40px;
+    min-width: 40px;
     height: 40px;
     border-radius: 50%;
 }
@@ -106,19 +104,20 @@ header > span{
 header > hr{
     width: 1px;
     height: 30px;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 header > span > a{
+    margin-right: 5px;
     font-size: 15px;
-    margin-left: 10px;
     color: black;
     text-decoration: none;
 }
+
 main{
     border: 1px solid #D356FF;
     background-color: #D356FF;
-    width: 1056px;
-    height: 800px;
+    width: 98%;
+    height: 850px;
     padding: 5px;
     margin: 12px;
     border-radius: 5px;
@@ -127,9 +126,10 @@ main{
 main > div#cabmain{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     border: 1px solid #D356FF;
     border-radius: 5px;
-    width: 1030px;
+    width: 100%;
     height: 25px;
     padding-top: 5px;
     margin: 0px;
@@ -144,16 +144,20 @@ main > div#cabmain > span#h1{
     margin-left: 5px;
     
 }
-main > div#cabmain > div#bolinha{
+main > div#cabmain > div{
+    display: flex;
+    align-items: center;
+    
+}
+main > div#cabmain > div > div#bolinha{
     border: 1px solid #692A80;
     background-color: white;
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    margin-left: 800px;
 }
-main > div#cabmain > span#ativo{
-    padding: 10px;
+main > div#cabmain > div >span#ativo{
+    padding: 5px;
 }
 main h1{
     font-family: 'Roboto', sans-serif;
@@ -165,7 +169,7 @@ main h1{
     padding-left: 10px;
 }
 main hr{
-    width: 1000px;
+    width: 97%;
     margin-left: 10px;
 }
 main label{
@@ -180,31 +184,34 @@ main > div#form > form >div#inome{
 main > div#form > form >div#inome > input{
     border: 2px solid #692A80;
     border-radius: 5px;
-    width: 1000px;
+    width: 98.5%;
     height: 30px;
     padding-left: 10px;
 }
 
-main > div#form > form > div#idamail{
+main > div#form > form > div#iidade{
     color: black;
     font-size: 14px;
     font-weight: 400;
     padding: 5px;
 }
-main > div#form > form >div#idamail > input#idade{
+main > div#form > form >div#iidade>input#idade{
     border: 2px solid #692A80;
     border-radius: 5px;
-    width: 200px;
+    width: 20%px;
     height: 30px;
     padding-left: 10px;
 }
-main > div#form > form > div#idamail > label#email{
-    margin-left: 163px;
+main > div#form > form > div#iemail{
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px;
 }
-main > div#form > form >div#idamail > input#e-mail{
+main > div#form > form >div#iemail > input#e-mail{
     border: 2px solid #692A80;
     border-radius: 5px;
-    width: 795px;
+    width: 98.5%;
     height: 30px;
     padding-left: 10px;
 }
@@ -217,7 +224,7 @@ main > div#form > form >div#iendereco{
 main > div#form > form >div#iendereco > input{
     border: 2px solid #692A80;
     border-radius: 5px;
-    width: 1000px;
+    width: 98.5%;
     height: 30px;
     padding-left: 10px;
 }
@@ -230,14 +237,14 @@ main > div#form > form >div#outinfo{
 main > div#form > form >div#outinfo > input{
     border: 2px solid #692A80;
     border-radius: 5px;
-    width: 1000px;
+    width: 98.5%;
     height: 30px;
     padding-left: 10px;
 }
 textarea#interesse{
     border: 2px solid #692A80;
     border-radius: 5px;
-    width: 1000px;
+    width: 98%;
     height: 100px;
     margin: 10px;
     margin-left: 5px;
@@ -247,7 +254,7 @@ textarea#interesse{
 textarea#curiosidade{
     border: 2px solid #692A80;
     border-radius: 5px;
-    width: 1000px;
+    width: 98%;
     height: 100px;
     margin: 10px;
     margin-left: 5px;
@@ -257,7 +264,7 @@ textarea#curiosidade{
 textarea#valores{
     border: 2px solid #692A80;
     border-radius: 5px;
-    width: 1000px;
+    width: 98%;
     height: 100px;
     margin: 10px;
     margin-left: 5px;
@@ -266,12 +273,14 @@ textarea#valores{
     margin-bottom: 10px;
 }
 main > div > form > a > input[type=submit]{
-    margin-left: 410px;
+    display: block;
+    text-align: center;
+    margin: auto;
     background-color: #5E5774;
     color: white;
     border: 1px solid black;
     border-radius: 5px;
-    width: 200px;
+    width: 20%;
     height: 40px;
     cursor: pointer;
 }

@@ -67,21 +67,24 @@ nav > hr{
     width: 240px;
     margin-left: 10px;
 }
-
+div#corpo{
+    width: 100%;
+    height: 100vh;
+}
 header{
     display: flex;
     align-items: center;
     background-color: #D356FF;
     border: 1px solid #D356FF;
     border-radius: 5px;
-    width: 1056px;
+    width: 98%;
     height: 62px;
     margin: 12px;
 }
 header > input{
-    border: 1px solid #D9D9D9;
+    border: 1px solid #D356FF;
     border-radius: 10px;
-    width: 650px;
+    width: 65%;
     height: 40px;
     margin: 10px;
     padding-left: 15px;
@@ -89,7 +92,7 @@ header > input{
 header > div#bola{
     border: 1px solid #D356FF;
     background-color: #692A80;
-    width: 40px;
+    min-width: 40px;
     height: 40px;
     border-radius: 50%;
 }
@@ -100,32 +103,37 @@ header > span{
 header > hr{
     width: 1px;
     height: 30px;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 header > span > a{
+    margin-right: 5px;
     font-size: 15px;
-    margin-left: 10px;
     color: black;
     text-decoration: none;
 }
+
 main{
     display: block;
     border: 1px solid #D356FF;
-    width: 1056px;
-    height: 280px;
+    width: 98%;
+    height: 45%;
     padding: 5px;
     margin: 12px;
     border-radius: 5px;
     background-color: #D356FF;
 }
 main > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #D356FF;
-    width: 1030px;
+    width: 100%;
     height: 40px;
     padding-top: 10px;
     margin-bottom: -20px;
 }
 main > div > span#h1{
+    
     font-size: 18px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
@@ -133,24 +141,21 @@ main > div > span#h1{
     color: black;
     margin-left: 5px;
     margin-top: 10px;
-    margin-right: 738px;
+    
 }
 main > div > a{
     text-decoration: none;
 }
-main > div > a > span#new{
+main > div > a > span#new{   
     background-color: #5E5774;
     color: white;
     border: 1px solid black;
     border-radius: 5px;
-    width: 234px;
-    height: 40px;
     padding: 10px 30px 10px 30px;
 }
 main > div#table{
-    
-    width: 1045px;
-    height: 200px;
+    width: 100%;
+    height: 80%;
     margin-top: 25px;
 }
 table{
