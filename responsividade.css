@@ -32,15 +32,15 @@
         display: none;
     }
     .navbar{
-        display: block;
+        display: none;
         position: absolute;
         top: 12.9%;
-        left: 100%;
+        left: 12px;
         background-color: #D356FF;
         width: 200px;
         height: 22vh;
         margin-left: 0px;
-        display: flex;
+        
         flex-direction: column;
         border-radius: 0px 0px 5px 5px;
         transition: all .50s ease;
@@ -66,6 +66,7 @@
         transition: all .50s ease;
     }
     div.navbar.open{
+        display: block;
         left: 12px;
     }
     #menu-icon{

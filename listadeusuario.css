@@ -14,18 +14,14 @@
 }
 body{
     display: flex;
-    background-color: #600580;
 }
 nav{
-    background-color: #D356FF;
-    border: 1px solid #D356FF;
     width: 300px;
     height: 100vh;
 }
 nav > div{
     display: flex;
     align-items: center;
-    background-color: #9908CC;
     width: 270px;
     height: 50px;
     margin: auto;
@@ -51,17 +47,16 @@ nav > p{
     align-items: center;
     font-size: 15px;
     padding: 5px;
-    color: #9908CC;
+   
     
 }
 nav > p > span{
     padding: 5px;
-    color: #9908CC;
+    
 }
 
 nav > p > a{
     text-decoration: none;
-    color: #9908CC;
 }
 nav > hr{
     width: 240px;
@@ -117,10 +112,9 @@ header > hr{
     margin-left: 10px;
 }
 header > span > a{
-    margin-right: 5px;
-    font-size: 15px;
-    color: black;
-    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    margin: 5px;
 }
 main{
     display: block;
@@ -156,10 +150,6 @@ main > div > a{
     text-decoration: none;
 }
 main > div > a > span#imprimir{
-    
-    background-color: #5763A0;
-    color: white;
-    border: 1px solid black;
     border-radius: 5px;
     margin-right: 15px;
     padding: 10px 40px 10px 40px;
@@ -179,15 +169,16 @@ table{
     background-color: #692A80;
 }
 tr.hover:hover{
-    background-color: lightgray; 
+    background-color: #000; 
 
        transition: 0.5s;
        
        opacity: 0.7;
 }
 th{
-    color: black;
-    font-weight: 500;
+    color: #000;
+    font-weight: 600;
+    font-size: 17px;
     text-align: center;
     padding-bottom: 2px;
 }
@@ -197,4 +188,5 @@ td{
     border-bottom: 1px solid lightgray;
     width: 50px;
     text-align: center;
+    color: #fff;
 }

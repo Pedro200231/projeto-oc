@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+/*CORES*/
+:root{
+    --cor-bodybackground: #600580;
+    --cor-layoutbackground: #D356FF;
+    --cor-backgroundlista: #692A80;
+    --cor-divnav: #8106ad;
+    --cor-letras: #fff;
+    --cor-hover-titulos: #000;
+    
+}
+/*-----------------------------------------------------------------------*/
+/*BODY*/
+body{
+    background-color: var(--cor-bodybackground);
+}
+/*-----------------------------------------------------------------------*/
+/*NAV*/
+nav{
+    background-color: var(--cor-layoutbackground);
+    border: 1px solid var(--cor-layoutbackground);
+}
+nav > div{
+    background-color: var(--cor-divnav);
+}
+nav > p{
+    color: var(--cor-letras);
+    
+}
+nav > p > span{
+    color: var(--cor-letras);
+}
+nav > p > a{
+    color: var(--cor-letras);
+}
+/*-----------------------------------------------------------------------*/
+/*HEADER*/
+header{
+    background-color: var(--cor-layoutbackground);
+    border: 1px solid var(--cor-layoutbackground);
+}
+#menu-icon{
+    color: var(--cor-divnav);
+}
+header > input{
+    border: 1px solid var(--cor-layoutbackground);
+}
+header > div#bola{
+    border: 1px solid var(--cor-layoutbackground);
+    background-color: var(--cor-divnav);
+}
+header > span{
+    color: var(--cor-letras);
+}
+header > span > a{
+    color: var(--cor-letras);
+    text-decoration: none;
+/*-----------------------------------------------------------------------*/
+/*MAIN*/
+}main{
+    border: 1px solid var(--cor-layoutbackground);
+    background-color: var(--cor-layoutbackground);
+}
+main > div{
+    background-color: var(--cor-layoutbackground);
+}
+main > div > span#h1{
+    color: var(--cor-hover-titulos);
+}
+main > div > a{
+    text-decoration: none;
+}
+/*-----------------------------------------------------------------------*/
+/*BOTÕES*/
+.botao{
+    background-color: var(--cor-divnav);
+    border: 1px solid var(--cor-hover-titulos);
+    color: var(--cor-letras);
+}

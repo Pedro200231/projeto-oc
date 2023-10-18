@@ -12,7 +12,6 @@ main{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #600580;
 }
 
 section#login{
@@ -97,8 +96,6 @@ form > a > input[type=submit]{
     font-size: 1em;
     width: 250px;
     height: 40px;
-    background-color:#9908CC;
-    color: white;
     border: none;
     margin: auto;
     margin-top: 20px;
