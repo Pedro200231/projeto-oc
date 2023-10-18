@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="responsividade.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
     <nav>
@@ -27,6 +30,19 @@
     
     <div id="corpo">
         <header>
+            <div class="bx bx-menu" id="menu-icon"></div>
+            <div class="navbar">
+                <p><span class="material-symbols-outlined">
+                    home</span> Home</p>
+                    <hr>
+                    <p><span class="material-symbols-outlined">
+                    group_add
+                    </span> <a href="cadastro.html">Cadastro</a></p>
+                    <hr>
+                    <p><span class="material-symbols-outlined">
+                    insert_chart
+                    </span><a href="relatorio.html">Relatórios</a></p>
+            </div>
             <input type="text" name="txt" id="txt" placeholder="Pesquisar...">
             <div id="bola">
             </div>
@@ -91,6 +107,14 @@
             </div>
         </main>
     </div>
-    
+    <script>
+        let menu = document.querySelector('#menu-icon');
+        let navbar = document.querySelector('.navbar');
+
+        menu.onclick = () => {
+        menu.classList.toggle('bx-x');
+        navbar.classList.toggle('open');
+}
+    </script>
 </body>
 </html>
