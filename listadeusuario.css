@@ -13,15 +13,14 @@
     font-family: 'Inter', sans-serif;
 }
 body{
-        display: flex;
-        background-color: #600580;
+    display: flex;
+    background-color: #600580;
 }
 nav{
     background-color: #D356FF;
     border: 1px solid #D356FF;
     width: 300px;
     height: 100vh;
-
 }
 nav > div{
     display: flex;
@@ -36,7 +35,6 @@ nav > div{
 }
 
 div > span#h1{
-    
     font-weight: 700;
     font-size: 40px;
     line-height: 48.41px;
@@ -54,6 +52,7 @@ nav > p{
     font-size: 15px;
     padding: 5px;
     color: #9908CC;
+    
 }
 nav > p > span{
     padding: 5px;
@@ -75,12 +74,23 @@ div#corpo{
 header{
     display: flex;
     align-items: center;
+    
     background-color: #D356FF;
     border: 1px solid #D356FF;
     border-radius: 5px;
     width: 98%;
     height: 62px;
     margin: 12px;
+}
+.navbar{
+    display: none;
+}
+#menu-icon{
+    color: #692A80;
+    font-size: 25px;
+    margin-left: 5px;
+    cursor: pointer;
+    display: none;
 }
 header > input{
     border: 1px solid #D356FF;
