@@ -136,6 +136,7 @@ main > div > span#h1{
 main > div > a > span#new{   
     border-radius: 5px;
     padding: 10px 30px 10px 30px;
+    
 }
 main > div#table{
     width: 100%;
