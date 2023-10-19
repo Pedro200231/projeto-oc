@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+/*CORES*/
+:root{
+    --cor-bodybackground: #600580;
+    --cor-layoutbackground: #D356FF;
+    --cor-backgroundlista: #692A80;
+    --cor-divnav: #8106ad;
+    --cor-letras: #fff;
+    --cor-hover-titulos: #000;
+    
+}
+/*-----------------------------------------------------------------------*/
+/*BODY*/
+body{
+    background-color: var(--cor-bodybackground);
+}
+/*-----------------------------------------------------------------------*/
+/*NAV*/
+nav{
+    background-color: var(--cor-layoutbackground);
+    border: 1px solid var(--cor-layoutbackground);
+    box-shadow: 2px 3px 5px var(--cor-hover-titulos);
+}
+nav > div{
+    background-color: var(--cor-divnav);
+}
+nav > p{
+    color: var(--cor-letras);
+    
+}
+nav > p > span{
+    color: var(--cor-letras);
+}
+nav > p > a{
+    color: var(--cor-letras);
+}
+/*-----------------------------------------------------------------------*/
+/*HEADER*/
+header{
+    background-color: var(--cor-layoutbackground);
+    border: 1px solid var(--cor-layoutbackground);
+    box-shadow: 2px 3px 5px var(--cor-hover-titulos);
+}
+#menu-icon{
+    color: var(--cor-divnav);
+}
+header > input{
+    border: 1px solid var(--cor-layoutbackground);
+}
+header > div#bola{
+    border: 1px solid var(--cor-layoutbackground);
+    background-color: var(--cor-divnav);
+}
+header > span{
+    color: var(--cor-letras);
+}
+header > span > a{
+    color: var(--cor-letras);
+    text-decoration: none;
+/*-----------------------------------------------------------------------*/
+/*MAIN*/
+}main{
+    border: 1px solid var(--cor-layoutbackground);
+    background-color: var(--cor-layoutbackground);
+    box-shadow: 2px 3px 5px black;
+}
+main > div{
+    background-color: var(--cor-layoutbackground);
+}
+main > div > span#h1{
+    color: var(--cor-hover-titulos);
+}
+main a{
+    color: var(--cor-letras);
+}
+main > div > a{
+    text-decoration: none;
+}
+/*-----------------------------------------------------------------------*/
+/*BOTÕES*/
+.botao{
+    background-color: var(--cor-divnav);
+    border: 1px solid var(--cor-hover-titulos);
+    color: var(--cor-letras);
+    box-shadow: 1px 1px 3px black;
+}
+/*PAINÉIS*/
+div#cadastro{
+    background-color: var(--cor-bodybackground);
+    
+}
+div > div#cadastrototal{
+    background-color: var(--cor-backgroundlista);
+    border: 1px solid var(--cor-backgroundlista);
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.514);
+    
+}
+div > div#cadastrototal > span{
+    color: #81BCD0;
+}
+
+div > div#cadastrototal > p{
+    color: var(--cor-letras);
+}
+
+div > div#cadastromes{
+    background-color: var(--cor-backgroundlista);
+    border: 1px solid var(--cor-backgroundlista);
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.514);
+}
+
+div > div#cadastromes > span{
+    color: #DC9102;
+}
+div > div#cadastromes > p{
+    color: var(--cor-letras);
+}
+
+div > div#cadastropr{
+    background-color: var(--cor-backgroundlista);
+    border: 1px solid var(--cor-backgroundlista);
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.514);
+}
+
+div > div#cadastropr> span{
+    color: #C52932;
+}
+
+div > div#cadastropr > p{
+    color: var(--cor-letras);
+}
+/*-----------------------------------------------------------------------*/
+/*TABELAS*/
+table{
+    background-color: var(--cor-backgroundlista);
+}
+tr.hover:hover{
+    background-color: var(--cor-hover-titulos); 
+}
+th{
+    color: rgb(255, 255, 255);
+}
+td{
+    border-top: 1px solid var(--cor-hover-titulos);
+    border-bottom: 1px solid var(--cor-hover-titulos);
+    color: rgba(255, 255, 255, 0.849);
+}
+/*-----------------------------------------------------------------------*/
+/*Formulário*/
+main > div#cabmain > div > div#bolinha{
+    border: 1px solid var(--cor-backgroundlista);
+    background-color: var(--cor-letras);
+}
+main > div#form > form >div#inome{
+    color: var(--cor-hover-titulos);
+}
+main > div#form > form >div#inome > input{
+    border: 2px solid var(--cor-backgroundlista);
+}
+main > div#form > form > div#iidade{
+    color: var(--cor-hover-titulos);
+}
+main > div#form > form >div#iidade>input#idade{
+    border: 2px solid var(--cor-backgroundlista);
+}
+main > div#form > form > div#iemail{
+    color: var(--cor-hover-titulos);
+}
+main > div#form > form >div#iemail > input#e-mail{
+    border: 2px solid var(--cor-backgroundlista);
+}
+main > div#form > form >div#iendereco{
+    color: var(--cor-hover-titulos);
+}
+main > div#form > form >div#iendereco > input{
+    border: 2px solid var(--cor-backgroundlista);
+}
+main > div#form > form >div#outinfo{
+    color: var(--cor-hover-titulos);
+}
+main > div#form > form >div#outinfo > input{
+    border: 2px solid var(--cor-backgroundlista);
+}
+textarea#interesse{
+    border: 2px solid var(--cor-backgroundlista);
+}
+textarea#curiosidade{
+    border: 2px solid var(--cor-backgroundlista);
+}
+textarea#valores{
+    border: 2px solid var(--cor-backgroundlista);
+}
+

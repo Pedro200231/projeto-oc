@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+
+header{
+    display: none;
+}
+nav{
+    display: none;
+}
+main > div > a > span#imprimir{
+    display: none;
+}
+main{
+    border: 3px solid black!important;
+    box-shadow: none!important;
+}
+table{
+    border: 1px solid black;
+}
+th{
+    color: var(--cor-hover-titulos)!important;
+}
+td{
+    color: var(--cor-hover-titulos)!important;
+    width: 50px;
+    text-align: center;
+}

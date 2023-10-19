@@ -1,16 +1,9 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
 }
 body{
     display: flex;
@@ -22,7 +15,7 @@ nav{
 nav > div{
     display: flex;
     align-items: center;
-    width: 270px;
+    width: 260px;
     height: 50px;
     margin: auto;
     margin-top: 10px;
@@ -31,29 +24,20 @@ nav > div{
 }
 
 div > span#h1{
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 48.41px;
     margin-left: 15px;
 }
 div > span#h2{
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 21.06px;
     margin-left: 15px;
 }
 nav > p{
     display: flex;
     align-items: center;
-    font-size: 15px;
     padding: 5px;
-    
 }
 nav > p > span{
     padding: 5px;
     
 }
-
 nav > p > a{
     text-decoration: none;
 }
@@ -68,26 +52,21 @@ div#corpo{
 header{
     display: flex;
     align-items: center;
-    
-    background-color: #D356FF;
-    border: 1px solid #D356FF;
     border-radius: 5px;
     width: 98%;
     height: 62px;
     margin: 12px;
+    
 }
 .navbar{
     display: none;
 }
 #menu-icon{
-    color: #692A80;
-    font-size: 25px;
     margin-left: 5px;
     cursor: pointer;
     display: none;
 }
 header > input{
-    border: 1px solid #D356FF;
     border-radius: 10px;
     width: 65%;
     height: 40px;
@@ -95,14 +74,11 @@ header > input{
     padding-left: 15px;
 }
 header > div#bola{
-    border: 1px solid #D356FF;
-    background-color: #692A80;
     min-width: 40px;
     height: 40px;
     border-radius: 50%;
 }
 header > span{
-    font-size: 15px;
     margin-left: 10px;
 }
 header > hr{
@@ -119,10 +95,10 @@ header > span > a{
 div#cadastro{
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 99%;
     height: 30%;
     margin: auto;
-    background-color: #600580;
+    margin-left: 5px;
     border-radius: 5px;
 }
 div > div#cadastrototal{
@@ -130,56 +106,34 @@ div > div#cadastrototal{
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #692A80;
-    border: 1px solid #600580;
     width: 30%;
     height: 100%;
     margin: auto;
 }
 div > div#cadastrototal > span{
-    color: #43725B;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 64px;
     transform: translate(0, 50px);
 }
-
 div > div#cadastrototal > p{
     width: 100%;
     text-align: right;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
+    margin-right: 10px;
 }
-
 div > div#cadastromes{
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #692A80;
-    border: 1px solid #600580;
     width: 30%;
     height: 100%;
     margin: auto;
-    
 }
-
 div > div#cadastromes > span{
-    color: #1D1143;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 64px;
     transform: translate(0, 50px);
 }
 div > div#cadastromes > p{
     width: 100%;
     text-align: right;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
+    margin-right: 10px;
 }
 
 div > div#cadastropr{
@@ -187,46 +141,33 @@ div > div#cadastropr{
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #692A80;
-    border: 1px solid #600580;
     width: 30%;
     height: 100%;
     margin: auto;
 }
 
 div > div#cadastropr> span{
-    color: #5E5774;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 64px;
     transform: translate(0, 50px);
 }
 
 div > div#cadastropr > p{
     width: 100%;
     text-align: right;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
+    margin-right: 10px;
 }
-
 main{
     display: block;
-    border: 1px solid #D356FF;
     width: 98%;
     height: 49%;
     padding: 5px;
     border-radius: 5px;
     margin: 12px;
-    background-color: #D356FF;
 }
 main > h1{
     font-size: 18px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
     line-height: 21.09px;
-    color: black;
     margin-left: 5px;
     margin-top: 10px;
 }
@@ -236,21 +177,16 @@ main > div{
     margin-top: 25px;
 }
 table{
-    background-color: #692A80;
     font-family: 'Roboto', sans-serif;
     border-collapse: collapse;
     width: 100%;
     height: 100%;
 }
 tr.hover:hover{
-    background-color: #000; 
-
-       transition: 0.5s;
-       
-       opacity: 0.7;
+    transition: 0.5s;
+    opacity: 0.7;
 }
 th{
-    color: #000;
     font-weight: 600;
     font-size: 17px;
     text-align: center;
@@ -258,10 +194,7 @@ th{
 }
 
 td{
-    border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
     width: 50px;
     text-align: center;
-    color: #fff;
 }
 
